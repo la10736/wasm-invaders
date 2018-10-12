@@ -8,7 +8,7 @@ in Rust).
 
 ![Space Invaders Screenshoot](resources/si.png)
 
-## Requirment
+## Requirement
 
 ### The Rust Toolchain
 
