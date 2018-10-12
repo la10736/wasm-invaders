@@ -1,0 +1,12 @@
+/target
+**/*.rs.bk
+/bin
+/.idea
+/wbg-tmp
+Cargo.lock
+/pkg
+wasm-pack.log
+*.iml
+/www/node_modules
+/www/.bin
+

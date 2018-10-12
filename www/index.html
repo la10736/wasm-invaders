@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        ul {
+            list-style: none;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        #fps {
+          white-space: pre;
+          font-family: monospace;
+        }
+    </style>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Hello wasm-pack!</title>
+    </head>
+    <body>
+        <script src="./bootstrap.js"></script>
+        <pre id="heading"></pre>
+        <div id="fps"></div>
+        <canvas id="screen"></canvas>
+        <ul>
+            <li>
+                <button id="coin">Coin</button>
+                <button id="play">Play</button>
+            </li>
+        </ul>
+        <button id="play-pause"></button>
+    </body>
+</html>
