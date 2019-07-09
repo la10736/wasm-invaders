@@ -67,6 +67,6 @@ it just the first time, after that you can forget it.
 
 ## Serve
 
-By `./start.s` you can start a web servel on http://localhost:8080 to
+By `./start.sh` you can start a web servel on http://localhost:8080 to
 serve the app.
 
